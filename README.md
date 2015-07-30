@@ -32,4 +32,4 @@ React.render((
 ```
 
 # Credits
-Huge thank you to Alex Garibay for the original tutorial on how to use react-router with Meteor.
+Huge thank you to Michael Jackson / Ryan Florence for creating the react-router and Alex Garibay for the original tutorial on how to use react-router with Meteor.
