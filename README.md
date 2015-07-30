@@ -10,6 +10,7 @@ You have access to the lib modules through `ReactRouter.lib`:
 
  - `ReactRouter.lib.BrowserHistory` (client only)
  - `ReactRouter.lib.HashHistory` (client only)
+ - `ReactRouter.lib.Location` (server and client)
  - `ReactRouter.lib.MemoryHistory` (server and client)
 
 # Example
