@@ -11,7 +11,7 @@ You have access to the lib modules through `ReactRouter.lib`:
 # Example
 ```javascript
 var {Router, Route} = ReactRouter;
-var history = ReactRouter.lib.BrowserHistory;
+var {history} = ReactRouter.lib.BrowserHistory;
 
 React.render((
   <Router history={history}>
