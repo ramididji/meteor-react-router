@@ -13,10 +13,8 @@ Npm.depends({
 });
 
 Package.onUse(function(api) {
-  api.use([
-    'react',
-    'cosmos:browserify'
-  ]);
+  api.use(['react']);
+  api.use(['cosmos:browserify'], 'client');
 
   api.add_files([
     'server.js'
