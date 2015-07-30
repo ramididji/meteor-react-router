@@ -5,7 +5,7 @@ You use `ReactRouter` the same way you would use `require('react-router')` norma
 <br />
 Read the [react-router documentation](http://rackt.github.io/react-router/tags/v1.0.0-beta3.html) for more informations.
 
-# libs
+# react-router/lib
 You have access to the lib modules through `ReactRouter.lib`:
 
  - `ReactRouter.lib.BrowserHistory` (client only)
