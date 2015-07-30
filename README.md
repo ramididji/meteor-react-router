@@ -18,17 +18,19 @@ You have access to the lib modules through `ReactRouter.lib`:
 var {Router, Route} = ReactRouter;
 var {history} = ReactRouter.lib.BrowserHistory;
 
-React.render((
-  <Router history={history}>
-    <Route path="/" component={App}>
-      <Route path="about" component={About}/>
-      <Route path="users" component={Users}>
-        <Route path="/user/:userId" component={User}/>
+Meteor.startup(function() {
+  React.render((
+    <Router history={history}>
+      <Route path="/" component={App}>
+        <Route path="about" component={About}/>
+        <Route path="users" component={Users}>
+          <Route path=":userId" component={User}/>
+        </Route>
+        <Route path="*" component={NoMatch}/>
       </Route>
-      <Route path="*" component={NoMatch}/>
-    </Route>
-  </Router>
-), document.body);
+    </Router>
+  ), document.body);
+});
 ```
 
 # Credits
