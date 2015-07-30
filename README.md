@@ -15,8 +15,8 @@ You have access to the lib modules through `ReactRouter.lib`:
 
 # Example
 ```javascript
-var {Router, Route} = ReactRouter;
-var {history} = ReactRouter.lib.BrowserHistory;
+const {Router, Route} = ReactRouter;
+const {history} = ReactRouter.lib.BrowserHistory;
 
 Meteor.startup(function() {
   React.render((
