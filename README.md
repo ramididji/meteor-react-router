@@ -1,4 +1,6 @@
 # Usage
+Install with: `meteor add reactrouter:react-router`.<br />
+<br />
 You use `ReactRouter` the same way you would use `require('react-router')` normally.
 
 # libs
