@@ -1,6 +1,6 @@
 Package.describe({
   name: 'reactrouter:react-router',
-  version: '0.1.0',
+  version: '0.1.1',
   summary: 'react-router (official): A complete routing solution for React.js',
   git: 'https://github.com/octopusjs/meteor-react-router.git',
   documentation: 'README.md'
