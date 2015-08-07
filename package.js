@@ -1,6 +1,6 @@
 Package.describe({
   name: 'reactrouter:react-router',
-  version: '0.1.2',
+  version: '0.1.3',
   summary: 'react-router (official): A complete routing solution for React.js',
   git: 'https://github.com/thereactivestack/meteor-react-router.git',
   documentation: 'README.md'
@@ -12,7 +12,8 @@ Npm.depends({
 });
 
 Package.onUse(function(api) {
-  api.use(['react@0.1.4', 'cosmos:browserify@0.5.0']);
+  api.use(['react@0.1.7', 'cosmos:browserify@0.5.0']);
+  api.imply(['react@0.1.7']);
 
   api.add_files([
     'react-router.browserify.options.json',
