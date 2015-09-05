@@ -157,9 +157,12 @@
         }
       }
     },
-    "react-router": {
-      "version": "1.0.0-beta3",
+    "history": {
+      "version": "1.8.4",
       "dependencies": {
+        "deep-equal": {
+          "version": "1.0.1"
+        },
         "invariant": {
           "version": "2.1.0",
           "dependencies": {
@@ -192,14 +195,123 @@
             }
           }
         },
-        "keymirror": {
-          "version": "0.1.1"
-        },
         "qs": {
-          "version": "2.4.1"
+          "version": "4.0.0"
         },
         "warning": {
-          "version": "1.0.2"
+          "version": "2.0.0",
+          "dependencies": {
+            "envify": {
+              "version": "3.4.0",
+              "dependencies": {
+                "through": {
+                  "version": "2.3.8"
+                },
+                "jstransform": {
+                  "version": "10.1.0",
+                  "dependencies": {
+                    "base62": {
+                      "version": "0.1.1"
+                    },
+                    "esprima-fb": {
+                      "version": "13001.1001.0-dev-harmony-fb"
+                    },
+                    "source-map": {
+                      "version": "0.1.31",
+                      "dependencies": {
+                        "amdefine": {
+                          "version": "1.0.0"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "react-router": {
+      "version": "1.0.0-beta4",
+      "dependencies": {
+        "history": {
+          "version": "1.8.1",
+          "dependencies": {
+            "deep-equal": {
+              "version": "1.0.0"
+            },
+            "qs": {
+              "version": "4.0.0"
+            },
+            "tough-cookie": {
+              "version": "2.0.0"
+            }
+          }
+        },
+        "invariant": {
+          "version": "2.1.0",
+          "dependencies": {
+            "envify": {
+              "version": "3.4.0",
+              "dependencies": {
+                "through": {
+                  "version": "2.3.8"
+                },
+                "jstransform": {
+                  "version": "10.1.0",
+                  "dependencies": {
+                    "base62": {
+                      "version": "0.1.1"
+                    },
+                    "esprima-fb": {
+                      "version": "13001.1001.0-dev-harmony-fb"
+                    },
+                    "source-map": {
+                      "version": "0.1.31",
+                      "dependencies": {
+                        "amdefine": {
+                          "version": "1.0.0"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "warning": {
+          "version": "2.0.0",
+          "dependencies": {
+            "envify": {
+              "version": "3.4.0",
+              "dependencies": {
+                "through": {
+                  "version": "2.3.8"
+                },
+                "jstransform": {
+                  "version": "10.1.0",
+                  "dependencies": {
+                    "base62": {
+                      "version": "0.1.1"
+                    },
+                    "esprima-fb": {
+                      "version": "13001.1001.0-dev-harmony-fb"
+                    },
+                    "source-map": {
+                      "version": "0.1.31",
+                      "dependencies": {
+                        "amdefine": {
+                          "version": "1.0.0"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
         }
       }
     }

@@ -2,13 +2,15 @@
 global.React = React;
 
 ReactRouter = require('react-router');
+ReactRouter.history = require('history');
 
-ReactRouter.lib = {
-  MemoryHistory: require('react-router/lib/MemoryHistory'),
-  Location: require('react-router/lib/Location')
+/*ReactRouter.history = {
+  createLocation: require('history/lib/createLocation'),
+  createMemoryHistory: require('history/lib/createMemoryHistory'),
+  useQueries: require('history/lib/useQueries')
 };
 
 if (Meteor.isClient) {
-  ReactRouter.lib.BrowserHistory = require('react-router/lib/BrowserHistory');
-  ReactRouter.lib.HashHistory = require('react-router/lib/HashHistory');
-}
+  ReactRouter.history.createHistory = require('history/lib/createHistory');
+  ReactRouter.history.createHashHistory = require('history/lib/createHashHistory');
+}*/
