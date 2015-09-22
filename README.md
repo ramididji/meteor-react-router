@@ -4,7 +4,7 @@
 # Usage
 You use `ReactRouter` the same way you would use `require('react-router')`.<br />
 You also have access to ReactRouter.history the same way you would use require('history') because they go hand in hand.<br />
-Read the [react-router documentation](http://rackt.github.io/react-router/tags/v1.0.0-beta4.html) for more informations.
+Read the [react-router documentation](https://github.com/rackt/react-router/tree/master/docs) for more informations.
 
 # Server-side rendering
 You can use the [reactrouter:react-router-ssr package](https://atmospherejs.com/reactrouter/react-router-ssr) and have server-side rendering in one line:
