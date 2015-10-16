@@ -8,8 +8,8 @@ Package.describe({
 
 Npm.depends({
   'exposify': '0.4.3',
-  'react-router': '1.0.0-rc1',
-  'history': '1.9.0'
+  'react-router': '1.0.0-rc3',
+  'history': '1.12.5'
 });
 
 Package.onUse(function(api) {
