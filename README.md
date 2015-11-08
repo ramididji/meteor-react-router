@@ -44,8 +44,5 @@ Meteor.startup(function() {
 });
 ```
 
-# Warning
-This is using react-router 1.0 even though it is still in beta. The API is stable and working very well in production.
-
 # Credits
 Huge thank you to Michael Jackson / Ryan Florence for creating the react-router and Alex Garibay for the original tutorial on how to use react-router with Meteor.
