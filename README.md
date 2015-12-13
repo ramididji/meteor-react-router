@@ -31,7 +31,11 @@ const {Router, Route} = ReactRouter;
 const history = ReactRouter.history.useQueries(ReactRouter.history.createHistory)()
 
 Meteor.startup(function() {
-  React.render((
+  const root = document.createElement('div');
+  root.setAttribute('id', 'root');
+  document.body.appendChild(root);
+  
+  ReactDOM.render((
     <Router history={history}>
       <Route path="/" component={App}>
         <Route path="/" component={HomePage} />
@@ -40,7 +44,7 @@ Meteor.startup(function() {
         {/* ... */}
       </Route>
     </Router>
-  ), document.body);
+  ), root);
 });
 ```
 
