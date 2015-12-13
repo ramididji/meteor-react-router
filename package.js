@@ -1,6 +1,6 @@
 Package.describe({
   name: 'reactrouter:react-router',
-  version: '0.1.12',
+  version: '1.0.2',
   summary: 'react-router (official): A complete routing solution for React.js',
   git: 'https://github.com/thereactivestack/meteor-react-router.git',
   documentation: 'README.md'
@@ -9,7 +9,7 @@ Package.describe({
 Npm.depends({
   'exposify': '0.5.0',
   'react-router': '1.0.2',
-  'history': '1.16.0'
+  'history': '1.13.1'
 });
 
 Package.onUse(function(api) {
