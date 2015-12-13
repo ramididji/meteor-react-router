@@ -8,15 +8,15 @@ Package.describe({
 
 Npm.depends({
   'exposify': '0.5.0',
-  'react-router': '1.0.0',
-  'history': '1.13.1'
+  'react-router': '1.0.2',
+  'history': '1.16.0'
 });
 
 Package.onUse(function(api) {
   api.versionsFrom('METEOR@1.2');
 
-  api.use(['react-runtime@0.13.3_6', 'cosmos:browserify@0.8.0']);
-  api.imply(['react-runtime@0.13.3_6']);
+  api.use(['react-runtime@0.14.0', 'cosmos:browserify@0.8.0']);
+  api.imply(['react-runtime@0.14.0']);
 
   api.add_files([
     'react-router.browserify.options.json',
