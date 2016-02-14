@@ -26,9 +26,7 @@ ReactRouterSSR.Run(AppRoutes);
 
 # Example
 ```javascript
-const {Router, Route} = ReactRouter;
-
-const history = ReactRouter.history.useQueries(ReactRouter.history.createHistory)()
+const {Router, Route, IndexRoute, browserHistory} = ReactRouter;
 
 Meteor.startup(function() {
   const root = document.createElement('div');
@@ -36,7 +34,7 @@ Meteor.startup(function() {
   document.body.appendChild(root);
   
   ReactDOM.render((
-    <Router history={history}>
+    <Router history={browserHistory}>
       <Route path="/" component={App}>
         <Route path="/" component={HomePage} />
         <Route path="login" component={LoginPage} />
